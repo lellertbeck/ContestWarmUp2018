@@ -8,13 +8,10 @@
         body
         {
             // your code here
-			if(sign == 1) {
-				H (q);
-			}
-			elif (sign == -1){
+			if (sign == -1){
 				X (q);
-				H (q);
 			}
+			H (q);
         }
     }
 }
